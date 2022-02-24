@@ -1,0 +1,23 @@
+@media screen and (max-width:760px) {
+  .espaco {
+    padding-left: 0px;
+    padding-bottom: 30px;
+  }
+
+  body{
+    margin: 10px 50px;
+  }
+
+  .fundoB{
+    width: 500px;
+  height: 500px;
+ left: 300px;
+  }
+
+  .fundoA {
+    width: 500px;
+    height: 500px;
+    right:  250px;
+    bottom: 500px;
+  }
+}

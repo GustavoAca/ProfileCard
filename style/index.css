@@ -3,20 +3,38 @@
 /*font-family: 'Open Sans', sans-serif;*/
 
 body {
-  margin: 10px 100px;
+  margin: 100px 100px;
   padding: 0;
   font-family: "Kumbh Sans", sans-serif;
   background-color: #199dae;
   font-weight: 300;
+  
 }
 
 .fundoA {
-  width: 150px;
+  width: 1000px;
+  height: 1000px;
+  opacity: .8;
+  position: fixed;
+  z-index: 99;
+  right:  650px;
+  bottom: 320px;
+}
+
+.fundoB {
+  width: 1000px;
+  height: 1000px;
+  opacity: .8;
+  position: fixed;
+  z-index: 99;
+ left: 700px;
+  top: 300px;
 }
 
 .espaco {
   padding-left: 325px;
   padding-bottom: 60px;
+  align-items: center;
 }
 
 #container-card {
@@ -91,6 +109,11 @@ strong {
   justify-content: space-between;
   line-height: 2px;
 }
+
+i{
+  color:black;
+}
+
 i:hover{
   color: white;
   cursor: pointer;
