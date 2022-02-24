@@ -1,35 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="/style/index.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="espaco">
+      <img class="fundoA" src="/images/bg-pattern-top.svg" />
+      <div id="container-card">
+        <div class="top">
+          <div class="img-container">
+            <img src="/images/image-victor.jpg" />
+          </div>
+        </div>
 
-  80K
-  Followers
+        <div class="bottom-middle">
+          <h3>
+            Victor Crest <strong>26</strong><br />
+            <span>London</span>
+          </h3>
+        </div>
 
-  803K
-  Likes
+        <div class="bottom">
+          <h4>80K</h4>
+          <h4>803K</h4>
+          <h4>1.4K</h4>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+          <span>Followers</span>
+          <span>Likes</span>
+          <span>Photos</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by Gustavo dos Anjos
+      <a
+        href="https://www.linkedin.com/in/gustavo-acacio-9876631a1/"
+        target="_blank"
+      >
+        <br />
+        <i
+          style="font-size: 36px; padding: 5px"
+          class="fa-brands fa-linkedin"
+        ></i>
+      </a>
+        <a href="https://github.com/GustavoAca" target="_blank"><i style="font-size: 36px" class="fa-brands fa-github"></i></a>.
+    </div>
+    <script
+      src="https://kit.fontawesome.com/eacfd6156f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
